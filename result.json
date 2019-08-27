@@ -1,0 +1,246 @@
+{
+    "took": 3,
+    "timed_out": false,
+    "_shards": {
+        "total": 5,
+        "successful": 5,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": 10,
+        "max_score": 1,
+        "hits": [
+            {
+                "_index": "testfer",
+                "_type": "tipo",
+                "_id": "5",
+                "_score": 1,
+                "_source": {
+                    "ID": 5,
+                    "fecha": "2019-08-27T16:35:49.580",
+                    "clienteid": 1,
+                    "nombre": "juan",
+                    "telefonos": [
+                        {
+                            "numero": "11111"
+                        },
+                        {
+                            "numero": "121212"
+                        },
+                        {
+                            "numero": "131313"
+                        }
+                    ]
+                }
+            },
+            {
+                "_index": "testfer",
+                "_type": "tipo",
+                "_id": "8",
+                "_score": 1,
+                "_source": {
+                    "ID": 8,
+                    "fecha": "2019-08-27T20:26:16.600",
+                    "clienteid": 2,
+                    "nombre": "jose",
+                    "telefonos": [
+                        {
+                            "numero": "22222"
+                        }
+                    ]
+                }
+            },
+            {
+                "_index": "testfer",
+                "_type": "tipo",
+                "_id": "9",
+                "_score": 1,
+                "_source": {
+                    "ID": 9,
+                    "fecha": "2019-08-27T20:26:16.600",
+                    "clienteid": 3,
+                    "nombre": "maria",
+                    "telefonos": [
+                        {
+                            "numero": "33333"
+                        }
+                    ]
+                }
+            },
+            {
+                "_index": "testfer",
+                "_type": "tipo",
+                "_id": "10",
+                "_score": 1,
+                "_source": {
+                    "ID": 10,
+                    "fecha": "2019-08-27T20:26:16.600",
+                    "clienteid": 1,
+                    "nombre": "juan",
+                    "telefonos": [
+                        {
+                            "numero": "11111"
+                        },
+                        {
+                            "numero": "121212"
+                        },
+                        {
+                            "numero": "131313"
+                        }
+                    ]
+                }
+            },
+            {
+                "_index": "testfer",
+                "_type": "tipo",
+                "_id": "2",
+                "_score": 1,
+                "_source": {
+                    "ID": 2,
+                    "fecha": "2019-08-27T16:35:44.960",
+                    "clienteid": 1,
+                    "nombre": "juan",
+                    "telefonos": [
+                        {
+                            "numero": "11111"
+                        },
+                        {
+                            "numero": "121212"
+                        },
+                        {
+                            "numero": "131313"
+                        }
+                    ],
+                    "detalle": [
+                        {
+                            "producto": "tres",
+                            "cantidad": 1,
+                            "subtotal": 334
+                        },
+                        {
+                            "producto": "cuatro",
+                            "cantidad": 1,
+                            "subtotal": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "_index": "testfer",
+                "_type": "tipo",
+                "_id": "4",
+                "_score": 1,
+                "_source": {
+                    "ID": 4,
+                    "fecha": "2019-08-27T16:35:47.767",
+                    "clienteid": 3,
+                    "nombre": "maria",
+                    "telefonos": [
+                        {
+                            "numero": "33333"
+                        }
+                    ]
+                }
+            },
+            {
+                "_index": "testfer",
+                "_type": "tipo",
+                "_id": "6",
+                "_score": 1,
+                "_source": {
+                    "ID": 6,
+                    "fecha": "2019-08-27T20:26:16.600",
+                    "clienteid": 1,
+                    "nombre": "juan",
+                    "telefonos": [
+                        {
+                            "numero": "11111"
+                        },
+                        {
+                            "numero": "121212"
+                        },
+                        {
+                            "numero": "131313"
+                        }
+                    ]
+                }
+            },
+            {
+                "_index": "testfer",
+                "_type": "tipo",
+                "_id": "1",
+                "_score": 1,
+                "_source": {
+                    "ID": 1,
+                    "fecha": "2019-08-27T16:35:42.287",
+                    "clienteid": 1,
+                    "nombre": "juan",
+                    "telefonos": [
+                        {
+                            "numero": "11111"
+                        },
+                        {
+                            "numero": "121212"
+                        },
+                        {
+                            "numero": "131313"
+                        }
+                    ],
+                    "detalle": [
+                        {
+                            "producto": "uno",
+                            "cantidad": 2,
+                            "subtotal": 22
+                        },
+                        {
+                            "producto": "dos",
+                            "cantidad": 1,
+                            "subtotal": 33
+                        }
+                    ]
+                }
+            },
+            {
+                "_index": "testfer",
+                "_type": "tipo",
+                "_id": "7",
+                "_score": 1,
+                "_source": {
+                    "ID": 7,
+                    "fecha": "2019-08-27T20:26:16.600",
+                    "clienteid": 1,
+                    "nombre": "juan",
+                    "telefonos": [
+                        {
+                            "numero": "11111"
+                        },
+                        {
+                            "numero": "121212"
+                        },
+                        {
+                            "numero": "131313"
+                        }
+                    ]
+                }
+            },
+            {
+                "_index": "testfer",
+                "_type": "tipo",
+                "_id": "3",
+                "_score": 1,
+                "_source": {
+                    "ID": 3,
+                    "fecha": "2019-08-27T16:35:46.087",
+                    "clienteid": 2,
+                    "nombre": "jose",
+                    "telefonos": [
+                        {
+                            "numero": "22222"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
